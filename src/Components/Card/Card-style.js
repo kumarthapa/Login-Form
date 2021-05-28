@@ -2,9 +2,8 @@ import { makeStyles } from "@material-ui/core";
 
 const cardStyles = makeStyles((theme) => ({
   root: {
-    minWidth: 275,
-    maxWidth: 275,
-    margin: theme.spacing(2),
+    minWidth: 300,
+    margin: theme.spacing(1),
     border: '1px solid gray'
   },
   bullet: {
@@ -17,6 +16,9 @@ const cardStyles = makeStyles((theme) => ({
   },
   pos: {
     marginBottom: 12,
+  },
+  root2: {
+    flexGrow: 1,
   },
 }));
 
